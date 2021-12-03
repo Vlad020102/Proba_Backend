@@ -9,7 +9,7 @@ app.use('/auth', require('./routes/users'))
 app.use('/contact-requests', require('./routes/contact-requests'));
 app.use('/reviews', require('./routes/reviews'));
 app.use('/tutoring-classes', require('./routes/tutoring-classes'));
-app.use('/', require('./routes/enrolments'))
+app.use('/', require('./routes/enrolments'));
 
 const { NOEXPAND } = require("sequelize/dist/lib/table-hints");
 
